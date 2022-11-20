@@ -66,6 +66,7 @@ margin-bottom: 60px;
     width: 90%;
     text-align: center;
     margin: 0 auto;
+    color: #DB8214;
 }
 
 #signature-list {
@@ -300,5 +301,39 @@ details summary::-webkit-details-marker {
   #contact-icons-list li a {
       font-size: 3.4em;
       color: #DB8214;
+  }
+
+
+
+
+
+
+
+
+
+  /* Set the background color of body to tan */
+
+  
+  /* On screens that are 992px or less, set the background color to blue */
+  @media screen and (max-width: 992px) {
+    .sidebar {
+        display: none;
+    }
+
+    #teaser-wrapper {
+        width: 100%;
+    }
+
+    .menu-category p {
+        padding-bottom: 10px;
+    }
+
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+    }
   }
   

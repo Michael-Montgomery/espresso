@@ -1,3 +1,7 @@
+* {
+    transition: all .4s;
+}
+
 .sidebar {
     height: 100vh;
     background-color: bisque;
@@ -16,6 +20,22 @@
     margin-bottom: 7vh;
 }
 
+#menu-list li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.8em;
+    font-family: 'Limelight', cursive;
+}
+
+#menu-list li a:hover {
+    color: #DB8214;
+}
+
+#menu-list li a img {
+    width: 200px;
+    width: 200px;
+}
+
 #teaser-wrapper {
     width: 90%;
     height: 40vh;
@@ -24,6 +44,10 @@
     margin-top: 40px;
     background-image: url('https://images.pexels.com/photos/1005766/pexels-photo-1005766.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
     background-size: cover;
+    box-shadow: 0px 0px 64px -12px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 64px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 64px -12px rgba(0,0,0,0.75);
+margin-bottom: 60px;
 }
 
 #intro-text-wrapper {
@@ -32,6 +56,9 @@
 
 #intro-text-wrapper h2 {
     text-align: center;
+    color: #DB8214;
+    font-family: 'Limelight', cursive;
+    font-size: 2.8em;
 }
 
 #intro-text-wrapper p {
@@ -64,6 +91,9 @@
     height: 150px;
     width: 150px;
     border-radius: 50%;
+    box-shadow: 0px 0px 64px -12px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 64px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 64px -12px rgba(0,0,0,0.75);
 }
 
 #name {
@@ -72,6 +102,203 @@
     padding-bottom: 0;
 }
 
-#title {
+
+
+.menu-wrapper {
+    padding-top: 5vh;
+}
+
+.menu-wrapper h2 {
+    color: #DB8214;
+    font-family: 'Limelight', cursive;
+    font-size: 2.9em;
+    text-align: center;
+    margin-bottom: 5vh;
     
 }
+
+
+
+details {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 12px;
+    /* line-height: 100px; */
+}
+
+summary div {
+    height: 15vh;
+    width: 95%;
+    background-size: cover;
+}
+
+#sandwiches {
+    
+    background-image: url('https://images.pexels.com/photos/1647163/pexels-photo-1647163.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-position-y: 40%;
+    
+}
+
+#coffee {
+    background-image: url('https://images.pexels.com/photos/164622/pexels-photo-164622.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: contain;
+}
+
+#drinks {
+    background-image: url('https://thumbs.dreamstime.com/b/different-delicious-smoothies-plastic-cups-white-background-banner-design-181817711.jpg');
+    background-size: contain;
+}
+
+#treats {
+    background-image: url('https://www.bakemag.com/ext/resources/images/2020/7/FillMeUpButtercup.jpg?t=1595954036&width=800');
+    background-position-y: 30%;
+}
+
+.menu-category {
+    color: white;
+    line-height: 150px;
+    font-family: 'Limelight', cursive;
+    font-size: 3em;
+    /* padding: 10px; */
+    background-color: bisque;
+    /* filter: grayscale(100%); */
+
+}
+
+.menu-category p {
+    background-color: #DB8214;
+    height: auto;
+
+}
+
+.menu-category p:hover {
+    background-color: transparent;
+}
+
+details summary::-webkit-details-marker {
+    display:none;
+  }
+
+
+  details table {
+      width: 95%;
+      text-align: center;
+      font-size: 1.6em;
+      border: 2px solid black;
+      margin-top: 8px;
+  }
+
+  details table th {
+      text-align: center;
+  }
+
+  details tr:nth-child(even) {
+      background-color: #d8d8d8;
+  }
+
+  .contact-wrapper {
+      padding-top: 15vh;
+  }
+
+  .contact-wrapper form {
+      text-align: center;
+  }
+
+  .contact-wrapper form h2 {
+      color: #DB8214;
+      font-family: 'Limelight', cursive;
+      font-size: 2.6em;
+  }
+
+  .contact-wrapper form input:hover {
+      background-color: rgba(219, 130, 20, .8);
+  }
+
+  .contact-wrapper form textarea:hover {
+    background-color: rgba(219, 130, 20, .8);
+}
+
+  .contact-wrapper form input:focus {
+    background-color: #DB8214;
+    
+  }
+
+  .contact-wrapper form textarea:focus {
+    background-color: #DB8214;
+  }
+
+  .half {
+      width: 40%;
+      text-align: center;
+      border: none;
+      outline: none;
+      border-bottom: 2px solid #DB8214;
+      margin: 0;
+      margin-bottom: 10px;  
+      font-size: 1.6em;  
+      color: white;
+  }
+  .full {
+      width: 80%;
+      text-align: center;
+      border: none;
+      outline: none;
+      border-bottom: 2px solid #DB8214;
+      margin-bottom: 10px;
+      font-size: 1.6em;
+      color: white;
+  }
+
+  #fName {
+      margin-right: -2px;
+  }
+
+  #lName {
+      margin-left: -2px;
+  }
+
+  #email {
+      margin-bottom: 20px;
+  }
+
+  .contact-wrapper textarea {
+      border: 2px solid #DB8214;
+      font-size: 1.6em;
+      height: 20vh;
+      resize: none;
+      color: white;
+  }
+
+  .contact-wrapper button {
+      font-size: 1.6em;
+      background-color: white;
+      color: #DB8214;
+      border: 2px solid #DB8214;
+      width: 80%;
+      margin-bottom: 25px;
+  }
+
+  .contact-wrapper button:hover {
+    background-color: #DB8214;
+    color: white;
+    border: 2px solid #DB8214;
+  }
+
+  #contact-icons-list {
+      list-style-type: none;
+      /* display: inline-block; */
+      text-align: center;
+
+  }
+
+  #contact-icons-list li {
+      display: inline;
+      margin: 0 5%;
+  }
+
+  #contact-icons-list li a {
+      font-size: 3.4em;
+      color: #DB8214;
+  }
+  

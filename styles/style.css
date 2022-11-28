@@ -2,6 +2,10 @@
     transition: all .4s;
 }
 
+.mobile-header {
+    display: none;
+}
+
 .sidebar {
     height: 100vh;
     background-color: bisque;
@@ -186,7 +190,7 @@ details summary::-webkit-details-marker {
       width: 95%;
       text-align: center;
       font-size: 1.6em;
-      border: 2px solid black;
+      border: 2px solid #DB8214;
       margin-top: 8px;
   }
 
@@ -195,7 +199,7 @@ details summary::-webkit-details-marker {
   }
 
   details tr:nth-child(even) {
-      background-color: #d8d8d8;
+      background-color: rgba(219, 130, 20, .8);
   }
 
   .contact-wrapper {
@@ -229,6 +233,12 @@ details summary::-webkit-details-marker {
     background-color: #DB8214;
   }
 
+  .full:focus:invalid, .half:focus:invalid {
+      border-bottom: 2px solid ;
+  }
+
+
+
   .half {
       width: 40%;
       text-align: center;
@@ -238,7 +248,7 @@ details summary::-webkit-details-marker {
       margin: 0;
       margin-bottom: 10px;  
       font-size: 1.6em;  
-      color: white;
+      color: #DB8214;
   }
   .full {
       width: 80%;
@@ -248,7 +258,12 @@ details summary::-webkit-details-marker {
       border-bottom: 2px solid #DB8214;
       margin-bottom: 10px;
       font-size: 1.6em;
-      color: white;
+      color: #DB8214;
+      
+  }
+
+  .half:focus, .full:focus {
+      color: black;
   }
 
   #fName {
@@ -268,7 +283,7 @@ details summary::-webkit-details-marker {
       font-size: 1.6em;
       height: 20vh;
       resize: none;
-      color: white;
+      color: #DB8214;
   }
 
   .contact-wrapper button {
@@ -326,6 +341,33 @@ details summary::-webkit-details-marker {
 
     .menu-category p {
         padding-bottom: 10px;
+    }
+
+    .mobile-header {
+        display: block;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+
+    .mobile-header header {
+        height: 70px;
+        background-color: #DB8214;
+    }
+
+    .mobile-header header nav {
+        line-height: 70px;
+    }
+
+    .mobile-header header nav a img {
+        height: 60px;
+    }
+
+    .mobile-header header nav a:last-child {
+        float: right;
+        color: white;
+        font-size: 2em;
+        margin-right: 15px;
     }
 
   }

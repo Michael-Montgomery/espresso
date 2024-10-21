@@ -6,7 +6,7 @@ import Menu from './pages/menu/menu';
 
 function App() {
   return (
-    <HashRouter>
+    <HashRouter basename='/'>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/menu' element={<Menu></Menu>}></Route>

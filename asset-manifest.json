@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/espresso/static/css/main.30b3aa49.css",
+    "main.js": "/espresso/static/js/main.27240c6c.js",
+    "static/js/453.973e0a78.chunk.js": "/espresso/static/js/453.973e0a78.chunk.js",
+    "index.html": "/espresso/index.html",
+    "main.30b3aa49.css.map": "/espresso/static/css/main.30b3aa49.css.map",
+    "main.27240c6c.js.map": "/espresso/static/js/main.27240c6c.js.map",
+    "453.973e0a78.chunk.js.map": "/espresso/static/js/453.973e0a78.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30b3aa49.css",
+    "static/js/main.27240c6c.js"
+  ]
+}

@@ -1,0 +1,130 @@
+#menu-wrapper {
+    width: 70vw;
+    height: 800px;
+    background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/1400/a948d849671425.58bb77365e179.jpg');
+    margin: 0 auto;
+    border-radius: 5px;
+    /* margin-top: 75px; */
+    overflow-y: scroll;
+    padding-bottom: 200px;
+    box-shadow: 0px 0px 18px 7px rgba(0, 0, 0, 0.42);
+    -webkit-box-shadow: 0px 0px 18px 7px rgba(0, 0, 0, 0.42);
+    -moz-box-shadow: 0px 0px 18px 7px rgba(0, 0, 0, 0.42);
+    position: initial;
+}
+
+#menu-wrapper h2 {
+    text-align: center;
+    /* color: gold; */
+    font-size: 1.7em;
+
+}
+
+#legend-list {
+    text-align: center;
+    padding-left: 0;
+}
+
+#legend-list li,
+#legend-list li p {
+    display: inline;
+}
+
+#legend-list li {
+    margin: 0 10px;
+}
+
+#lunch-list {
+    /* margin-bottom: 200px; */
+}
+
+#menu-wrapper ul:last-child {
+    margin-bottom: 200px;
+}
+
+#menu-wrapper ul {
+    list-style-type: none;
+}
+
+#menu-wrapper ul li {
+    margin-bottom: 20px;
+}
+
+#menu-wrapper ul div {
+    display: inline-block;
+    width: 90%;
+}
+
+#menu-wrapper ul div p {
+    display: inline;
+}
+
+.dish-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+.vegetarian-icon {
+    color: green;
+}
+
+.popular-icon {
+    color: red;
+}
+
+.special-icon {
+    color: gold;
+}
+
+.dish-description {}
+
+.dish-price {
+    float: right;
+    font-size: 1.3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    #menu-wrapper {
+        width: 90vw;
+        padding-left: 15px;
+    }
+
+    #menu-wrapper ul {
+        padding-left: 0;
+    }
+
+    #legend-list li p {
+        font-size: .8em;
+        line-height: 0;
+    }
+
+    .dish-title {
+        font-size: 1em;
+    }
+
+    .dish-description {
+        display: none !important;
+    }
+
+    #menu-wrapper ul:last-child {
+        margin-bottom: 170px;
+    }
+
+    #menu-wrapper ul div p {
+        margin-top: 0;
+    }
+
+}

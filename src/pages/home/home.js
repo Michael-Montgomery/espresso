@@ -15,6 +15,7 @@ export default function Home() {
                 </div>
 
                 <p id='homepage-address'>775 Malabar Rd. Palm Bay, FL</p>
+                <p id='credit-link'><a href='https://michael-montgomery.github.io/theory23'>T23</a></p>
             </div>
         </>
     )

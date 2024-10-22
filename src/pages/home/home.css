@@ -71,6 +71,27 @@ position: absolute;
 bottom: 0;
 }
 
+#credit-link {
+  float: right;
+  /* position: absolute; */
+  margin-top: 70vh;
+  background-color: red;
+  padding: 7px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+#credit-link a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.4em;
+  transition: all .4s;
+}
+
+#credit-link:hover {
+  font-size: 1.45em;
+}
+
 
 
 

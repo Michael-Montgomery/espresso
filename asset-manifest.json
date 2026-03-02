@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/espresso/static/css/main.d618ae53.css",
+    "main.css": "/espresso/static/css/main.f0c74668.css",
     "main.js": "/espresso/static/js/main.710f5729.js",
     "static/js/453.973e0a78.chunk.js": "/espresso/static/js/453.973e0a78.chunk.js",
     "static/media/cart.png": "/espresso/static/media/cart.649b20e8904aa5ef5964.png",
     "index.html": "/espresso/index.html",
-    "main.d618ae53.css.map": "/espresso/static/css/main.d618ae53.css.map",
+    "main.f0c74668.css.map": "/espresso/static/css/main.f0c74668.css.map",
     "main.710f5729.js.map": "/espresso/static/js/main.710f5729.js.map",
     "453.973e0a78.chunk.js.map": "/espresso/static/js/453.973e0a78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d618ae53.css",
+    "static/css/main.f0c74668.css",
     "static/js/main.710f5729.js"
   ]
 }

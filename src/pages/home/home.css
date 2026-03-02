@@ -92,6 +92,13 @@ bottom: 0;
   font-size: 1.45em;
 }
 
+#homepage-coffee-cart {
+  position: absolute;
+  bottom: 13%;
+  left: 10%;
+  width: 500px;
+}
+
 
 
 
@@ -115,5 +122,10 @@ bottom: 0;
 
   #homepage-address {
     left: 15%;
+  }
+
+  #homepage-coffee-cart {
+    width: 300px;
+    left: 5%;
   }
 }

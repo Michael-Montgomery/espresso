@@ -121,13 +121,14 @@ bottom: 0;
     width: 200px;
     height: 70px;
   }
-  
+
   .center {
     top: 50%;
   }
 
   #homepage-address {
     left: 15%;
+    bottom: 8%;
   }
 
   #homepage-coffee-cart {

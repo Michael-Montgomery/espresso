@@ -116,6 +116,12 @@ bottom: 0;
 
 
 @media only screen and (max-width: 600px) {
+
+  #cloud {
+    width: 200px;
+    height: 70px;
+  }
+  
   .center {
     top: 50%;
   }
